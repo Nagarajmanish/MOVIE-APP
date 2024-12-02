@@ -16,7 +16,7 @@ function App() {
   const getTopRatedMovies = async () => {
     try {
       let allMovies = [];
-      const totalPages = 50; // Fetch up to 10 pages for general movies
+      const totalPages = 50; // Fetch up to  50 pages for general movies
 
       // Fetch top-rated general movies
       for (let page = 1; page <= totalPages; page++) {
