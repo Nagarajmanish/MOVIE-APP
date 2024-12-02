@@ -35,3 +35,14 @@
     position:relative;
     left:80px;
 }
+/* Add this to your Moviebox.css or card-specific CSS */
+.card-container {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Ensure the text color stays as it is */
+    display: block; /* Ensure it takes up full space like a block element */
+  }
+  
+  .card-container:hover {
+    text-decoration: none; /* No underline even on hover */
+  }
+  
